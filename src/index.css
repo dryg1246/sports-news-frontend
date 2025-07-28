@@ -1,0 +1,17 @@
+
+@tailwind utilities;
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom, #262626, #B8C2CE);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
