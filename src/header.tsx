@@ -23,10 +23,12 @@ const Header = () => {
                 ))}
             </div>
             </div>
-            <button className="bg-[#B8C2CE] border-0 rounded-[6px] w-full max-w-[100px] cursor-pointer ">
+            <Link to="/login" className="w-full max-w-[100px]">
+            <button className="bg-[#B8C2CE] border-0 rounded-[6px] cursor-pointer ">
                 {/*<img src="" alt=""/>*/}
                 <p className="text-white text-[14px]">Login</p>
             </button>
+            </Link>
         </header>
     )
 }
